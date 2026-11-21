@@ -1,6 +1,6 @@
 /* Heritage Bhutan ERP - offline service worker.
    Bump VERSION whenever you upload a new index.html so phones/computers pick it up. */
-const VERSION = 'hb-erp-v1';
+const VERSION = 'hb-erp-v2';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 const OPTIONAL = ['./supabase.js', './sync.js'];   /* cached only if they exist */
 
